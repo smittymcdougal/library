@@ -1,0 +1,64 @@
+body{
+    background-color: #f8f8ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#myForm{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    width: 300px;
+
+}
+#myForm label{
+    margin: 5px 10px 5px 0
+}
+#myForm input{
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+   
+}
+.form-popup{
+    margin: auto;
+    margin-top: -25px;
+    display: none;
+    flex-grow: 3;
+    background-color: aqua;
+    padding: 40px;
+    border-radius: 50px;
+    align-self: center;
+    column-count: 1;
+    width: 80%;
+
+    
+}
+
+label{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h1{
+    text-align: center;
+    background-color: cyan;
+    height: 100px;
+    margin: -8px -8px;
+    padding-top: 30px;
+    font-size: 55px;
+}
+#open{
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    height: 60px;
+    width:60px;
+    margin: 20px 0 20px 20px;
+    color:white;
+    font-size: 60px;
+    text-align: center;
+    align-content: center;
+    line-height:60px
+
+}
